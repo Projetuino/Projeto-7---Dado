@@ -1,6 +1,6 @@
 //Mapeamento dos pinos do display na
 //sequencia {a, b, c, d, e, f, g, DP}
-const int pinos[8] = {5, 4, 9, 10, 11, 6, 7, 8};
+const int pinos[8] = {4, 5, 10, 9, 8, 3, 2, 11};
 const int numeros[10][8] = {
   {1, 1, 1, 1, 1, 1, 0, 0},
   {0, 1, 1, 0, 0, 0, 0, 0},
@@ -13,7 +13,7 @@ const int numeros[10][8] = {
   {1, 1, 1, 1, 1, 1, 1, 0},
   {1, 1, 1, 1, 0, 1, 1, 0}
 };
-const int botao = 2;
+const int botao = 13;
 int numero = 0;
 
 void setup() {
